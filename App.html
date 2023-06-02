@@ -11,30 +11,43 @@
     <title>Hello world</title>
 </head>
 <body id="body">
-    <nav class="navbar navbar-expand-lg mx-5 my-2 navbar-dark">
+    <nav class="navbar navbar-expand-lg mx-5 my-2 navbar-light " id="Barra-navegacion">
         <div class="container-fluid mx-5">
-            <a class="navbar-brand" href="#">Link</a>
-            <button class="navbar-toggler mx-0 px-0" type="button" data-bs-toggle="collapse" data-bs-target="#boton-responsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse px-0" id="boton-responsive">
-                <ul class="navbar-nav me-0 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-outline-light">Boton</a>
-                    </li>
-                </ul>
+            <a class="navbar-brand" href="#"><img src="/src/Images/Amplificador.png" width="100"></a>
+            <div class="nav-item my-auto me-5">
+                <h5 id="Negocio">ELECTRONIC BLOG</h5>
             </div>
-            <div class="nav-item dropdown">
+            <div class="nav-item dropdown mx-0">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Funciones
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="#navbarDropdown">
                     <li><a class="dropdown-item" href="#">Funcion 1</a></li>
+                    <li><a class="dropdown-item" href="#">Funcion 2</a></li>
+                    <li><a class="dropdown-item" href="#">Funcion 3</a></li>
+                    <li><a class="dropdown-item" href="#">Funcion 4</a></li>
                 </ul>
             </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#boton-responsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-0 pe-0" id="boton-responsive">
+                <ul class="navbar-nav me-0 mb-1 mb-lg-0">
+                    <li class="nav-item mx-4 my-auto">
+                        <a class="nav-link active" href="/src/App.html">Inicio</a>
+                    </li>
+                    <li class="nav-item justify-content-center my-auto">
+                        <a class="btn btn-outline-dark" href="#">Ingresa</a>
+                    </li>
+                    <li class="nav-item  justify-content-center  ms-2 my-auto">
+                        <a class="btn btn-outline-dark" href="#">Registrarse</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
         </div>
     </nav>
 </body>
