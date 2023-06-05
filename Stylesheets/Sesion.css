@@ -7,3 +7,13 @@
 #Barra-navegacion{
     background-color: blanchedalmond;
 }
+.formulario{
+    background-image: url("/src/Images/Cometa-Halley.jpg");
+}
+label{
+    color:aliceblue;
+}
+#Titulo{
+    color:aliceblue;
+    font-size: xx-large;
+}
