@@ -1,0 +1,16 @@
+#body{
+    background-image: url("../Images/Cometa-Halley.jpg");
+}
+#Negocio{
+    color:black;
+}
+#Barra-navegacion{
+    background-color: blanchedalmond;
+}
+#Titulo{
+    color:bisque;
+    font-size: x-large;
+}
+label{
+    color:aliceblue;
+}
